@@ -7,7 +7,9 @@ function alertMessage (){
     if (inputField.value === ''){
         window.alert('Please input a value');
     }
+}
 
+//code for checking if text is a palindrome
 checkButton.addEventListener('click', alertMessage);
 
 
